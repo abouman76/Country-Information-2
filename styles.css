@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 1000px;
+}
+
+h2 {
+
+}
+
+.pic-world-map {
+    width: 100%;
+}
+
+#list-country-names {
+    list-style-type: none;
+    column-count: 3;
+    max-width: 1000px;
+    border: grey 2px solid;
+    border-radius: 4px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.flag {
+    width: 20px;
+    margin: 0 15px 0 0;
+    display: inline-block;
+}
+
+.blue {
+    color: #5575C1;
+}
+
+.green {
+    color: #4C834B;
+}
+
+.red {
+    color: #D24E5B;
+}
+
+.yellow {
+    color: #FFD435;
+}
+
+.purple {
+    color: #A653BA;
+}
+
+.default {
+    color: chartreuse;
+}
